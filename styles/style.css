@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header parent css */
+.header-parent {
+  max-width: 1200px;
+}
+
+
+.navbar-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar left side */
+
+.navbar-list-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 10px 5px;
+}
