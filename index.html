@@ -4,25 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Website for X</title>
+  <!-- CSS file -->
   <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+
 </head>
 <body>
-  <!-- This is navbar -->
-   <header class="header-parent">
+  <!-- Navbar -->
+   <header class="header-parent container">
     <nav class="navbar-parent">
       <div class="navbar-right-s">
-        <h2>Ma<span>r</span>y</h2>
+        <h2 class="logo">Ma<span class="logo-r">r</span>y</h2>
       </div>
 
       <div class="navbar-left-s">
         <ul class="navbar-list-parent">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><button>Hire Me</button></li>
+          <li><a class="anchor" href="#">Portfolio</a></li>
+          <li><a class="anchor" href="#">Blog</a></li>
+          <li><button class="common-btn">Hire Me</button></li>
         </ul>
       </div>
     </nav>
    </header>
-  
+
+   <!-- Hero Section -->
+    <section class="hs-parent">
+      <div class="hs-sub-parent container">
+        <div class="hs-right">
+          <h3 class="hs-h3">Hi, I am</h3>
+          <h1 class="hs-h1">Mary Hardy</h1>
+          <p class="hs-para">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+          <div class="hs-btn">
+            <button class="common-btn">My CV</button>            
+            <button class="common-btn">Contact</button>
+          </div>
+        </div>
+        <div class="hs-left">
+          <img src="./images/hardy.png" alt="A man named hardy wearing a black suit.">
+        </div>
+      </div>
+    </section>
 </body>
 </html>

@@ -1,19 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
-/* Header parent css */
-.header-parent {
+/* From google font, kept here for now, if needed later.
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* Container */
+.container {
   max-width: 1200px;
+  margin: auto;
 }
 
+/* Fixed design */
+.common-btn {
+  background: #fd6e0a;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
 
+/*Header*/
+.header-parent {
+  
+}
+
+/* Navbar Start */
 .navbar-parent {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-/* Navbar left side */
+/*Left Side*/
 
 .navbar-list-parent {
   display: flex;
@@ -21,5 +52,59 @@
   align-items: center;
   gap: 20px;
   list-style: none;
-  padding: 10px 5px;
+  padding: 15px 0;
+}
+
+.anchor{
+  text-decoration: none;
+  color: black;
+
+}
+
+/*Logo/Right Side*/
+.logo-r {
+  color: #fd6e0a;
+
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 700;
+
+}
+/* navbar end */
+
+/* Hero Section */
+.hs-parent {
+  background-color: #fff8f3;
+
+}
+
+.hs-sub-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hs-right {
+  text-align: left;
+}
+.hs-h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.hs-h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.hs-para {
+  /* font-size: 30px; */
+  /* font-weight: 700; */
+}
+.hs-btn {
+    margin-top: 12px;
+}
+.hs-left img {
+  width: 100%;
 }
