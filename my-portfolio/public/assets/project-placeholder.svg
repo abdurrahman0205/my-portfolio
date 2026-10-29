@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16181a"/>
+      <stop offset="1" stop-color="#232629"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="600" cy="330" r="120" fill="none" stroke="#cff45c" stroke-width="4" opacity="0.5"/>
+  <text x="600" y="345" font-family="monospace" font-size="34" fill="#cff45c" text-anchor="middle" opacity="0.8">project preview</text>
+  <text x="600" y="420" font-family="monospace" font-size="20" fill="#8a8f98" text-anchor="middle">replace with your screenshot</text>
+</svg>
