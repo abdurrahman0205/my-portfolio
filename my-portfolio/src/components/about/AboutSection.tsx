@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 import { useEffect, useRef } from "react";
 import AboutCanvas from "@/components/about/AboutCanvas";
+import AboutCanvas02 from "./AboutCanvas02";
 
 // ADJUST: where the reveal starts/ends as a fraction of viewport height.
 // 0.85 = words start brightening when the block reaches 85% viewport height;
@@ -113,10 +114,14 @@ export default function AboutSection() {
         {/* Two columns: generative canvas + revealed copy (stacked below lg) */}
         <div className="mt-16 grid grid-cols-1 items-start gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left: scribble animation card */}
-          <AboutCanvas />
+          {/* <AboutCanvas /> */}
+          <div className="grid-cols-2">
+            <AboutCanvas02 />
+          </div>
+          
 
           {/* Right: eyebrow + scroll-revealed paragraphs */}
-          <div>
+          <div className="grid-cols-10">
             <p className="font-mono text-sm tracking-[0.35em] text-muted-foreground uppercase">
               ( About Me )
             </p>
