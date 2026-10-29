@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/Button";
+// import Portrait from 'portrait.png'
 
 /**
  * Banner — the hero section shown at the top of the page.
@@ -14,7 +15,7 @@ export function Banner() {
       <div className="flex flex-col gap-8">
         {/* Eyebrow label */}
         <p className="font-mono text-sm tracking-[0.25em] text-muted-foreground uppercase">
-          Abdul Basit · Full-Stack Developer
+          Abdur Rahman · Full-Stack Developer
         </p>
 
         {/* Main serif headline */}
@@ -37,11 +38,11 @@ export function Banner() {
 
       {/* Right column: framed portrait */}
       <div className="relative hidden shrink-0 md:block">
-        <div className="rounded-3xl border border-lime/30 p-2">
+        <div className="rounded-3xl border border-lime/30 pt-4">
           <Image
-            src="/portrait.png"
-            alt="Portrait of Abdul Basit"
-            width={380}
+            src="/assets/portrait.png"
+            alt="Portrait of Abdur Rahman"
+            width={460}
             height={460}
             priority
             className="rounded-2xl object-cover grayscale"

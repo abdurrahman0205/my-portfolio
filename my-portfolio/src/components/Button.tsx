@@ -26,9 +26,9 @@ export function Button({
         // Shared pill shape + uppercase mono label to match the design
         "h-auto rounded-full px-7 py-3 font-mono text-xs font-semibold tracking-[0.2em] uppercase",
         variant === "primary" &&
-          "bg-lime text-lime-foreground hover:brightness-95 dark:hover:brightness-105",
+        "bg-lime text-lime-foreground hover:brightness-95 dark:hover:brightness-105",
         variant === "outline" &&
-          "border-border bg-transparent text-foreground hover:bg-muted",
+        "border-border bg-transparent text-foreground hover:bg-muted",
         className,
       )}
       {...props}

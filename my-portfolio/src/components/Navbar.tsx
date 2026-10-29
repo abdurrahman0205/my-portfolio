@@ -5,9 +5,9 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 const navLinks = [
   { label: "Intro", href: "#intro", active: true },
   { label: "About", href: "#about" },
-  { label: "Work", href: "#work" },
   { label: "Skills", href: "#skills" },
-  { label: "Journey", href: "#journey" },
+  { label: "Project", href: "#work" },
+  // { label: "Journey", href: "#journey" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -26,7 +26,7 @@ export function Navbar() {
           href="#intro"
           className="font-mono text-sm font-bold tracking-[0.3em] uppercase"
         >
-          Abdul<span className="text-lime">.</span>
+          Abdur Rahman<span className="text-lime">.</span>
         </a>
 
         {/* Centered nav links */}
@@ -35,11 +35,10 @@ export function Navbar() {
             <li key={link.label}>
               <a
                 href={link.href}
-                className={`font-mono text-xs tracking-[0.25em] uppercase transition-colors ${
-                  link.active
+                className={`font-mono text-xs tracking-[0.25em] uppercase transition-colors ${link.active
                     ? "text-lime"
                     : "text-muted-foreground hover:text-foreground"
-                }`}
+                  }`}
               >
                 {link.label}
               </a>
